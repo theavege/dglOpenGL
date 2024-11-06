@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <Package Version="5">
-    <Name Value="dglOpenGL"/>
+    <Name Value="dglOpenGLpkg"/>
     <Type Value="RunAndDesignTime"/>
     <CompilerOptions>
       <Version Value="11"/>
       <SearchPaths>
-        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)/"/>
       </SearchPaths>
     </CompilerOptions>
     <Files>
       <Item>
         <Filename Value="dglOpenGL.pas"/>
-        <HasRegisterProc Value="True"/>
         <UnitName Value="dglOpenGL"/>
       </Item>
     </Files>
