@@ -8,8 +8,14 @@ unit dglOpenGLpkg;
 interface
 
 uses
-  dglOpenGL;
+  dglOpenGL, LazarusPackageIntf;
 
 implementation
 
+procedure Register;
+begin
+end;
+
+initialization
+  RegisterPackage('dglOpenGLpkg', @Register);
 end.
